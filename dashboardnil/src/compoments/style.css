@@ -1,0 +1,78 @@
+ 
+  /**************************************************sidebar*****************************************/
+  .logo{
+    position: relative;
+    width: 100px;
+  }
+  .user{
+    position: absolute;
+    margin-top: 80px;
+    margin-left: -160px;
+    color: #3ec1f0;
+  }
+  .user i{
+    color: #ffc507;
+  }
+ 
+ .list-group a:hover{
+    background-color: #3ec1f0;
+  
+    cursor: pointer;
+ }
+ .list-group a{
+    background-color: #212529;
+    color: #ffc507;
+    margin-bottom: 50px;
+    font-size: 25px;
+
+
+}
+.hr{
+    margin-bottom: 75px;
+}
+ 
+    
+ 
+ 
+
+
+ /*****************************NAV*******************************/
+
+
+ .nil{
+    color: #3ec1f0;
+ }
+ .service{
+    color:  #ffc507;
+ }
+
+ .barre{
+    color: black;
+    width: 100%;
+    border: 2px solid #3ec1f0;
+    margin-top: 0;
+    margin-bottom: 70px;
+ }
+ .i{
+    color: #ffc507;
+ }
+ .i:hover{
+    color: #3ec1f0;
+ }
+
+
+
+
+ /***********************************HOME**********************************/
+ .cardre{
+    background-color: #3ec1f0;
+ }
+ h3,i{
+    color: #3ec1f0;
+ }
+ p {
+    color: #ffc507;
+ }
+
+
+ /************************General*****************************************************************/
