@@ -12,7 +12,7 @@ function General(){
         setToggle(!toggle)
     }
     return(
-        <div className='container-fluid bg- min-vh-100 '>
+        <div className='container-fluid bg- min-vh-100 general'>
       <div className='row'>
         {toggle &&<div className='col-2 p-0 postion-fixed'>
           <Sidebar/>

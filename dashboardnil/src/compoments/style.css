@@ -76,3 +76,46 @@
 
 
  /************************General*****************************************************************/
+ .general{
+    background-color: #F8F6ED;
+ }
+
+ /* ******************************Connexion************************************** */
+
+.wrapper{
+   height: 100vh;
+   background-color: #F8F6ED;
+
+ }
+ .login{
+   z-index: 1;
+   width: 800px;
+   padding: 20px 30px;
+   padding-top: 140px;
+   
+   height:min-content ;
+   border-radius: 5px;
+   background-color: rgb(238, 241, 243);
+   
+ }
+ .tete h2{
+   font-size: 40px;
+   color: #ffc507;
+ }
+ .tete{
+   background-color: #3ec1f0;
+   width: 900px;
+   height: 70px;
+   z-index: 4;
+   margin-bottom: 400px;
+   padding-top:12px ;
+   border-radius: 5px;
+   
+ }
+ .sign{
+   background-color:#3ec1f0;
+   color: #ffc507;
+ }
+ .sign:hover{
+   background-color: #3ec1f0;
+ }
