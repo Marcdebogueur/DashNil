@@ -50,6 +50,7 @@ function Home ({Toggle}){
                         </div>    
                     </div>
                 </div>
+                
             </div>
         </div>
     )

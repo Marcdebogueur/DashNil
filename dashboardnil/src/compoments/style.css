@@ -119,3 +119,22 @@
  .sign:hover{
    background-color: #3ec1f0;
  }
+ .image{
+   /* width: 0px; */
+   margin-bottom: 700px;
+   margin-right: 1350px;
+
+ }
+ /*****************************tableau******************************************************/
+
+ .tableau{
+   width: 1300px;
+   /* background-color: red; */
+   margin-top: 400px;
+   margin-left: 400px;
+   display: flex;
+   justify-content: start;
+   
+   
+ }
+ 

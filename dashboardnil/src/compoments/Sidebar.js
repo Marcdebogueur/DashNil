@@ -1,6 +1,7 @@
 import React from "react";
 import logNil from './../asset/images/logoNil.png'
 import './style.css'
+import { Link } from "react-router-dom";
 
 
 
@@ -22,26 +23,26 @@ function Sidebar() {
                     <i className="bi bi-speedometer2 fs-5 me-3"></i>
                     <span>Dashboard</span>
                 </a>
-                <a href="" className="list-group-item py-2" >
+                <Link to="" className="list-group-item py-2" >
                     <i className="bi bi-house fs-4 me-3"></i>
                     <span>Home</span>
-                </a>
-                <a href="" className="list-group-item py-2" >
+                </Link>
+                <Link to="/Vendeur" className="list-group-item py-2" >
                     <i className="bi bi-house fs-4 me-3"></i>
                     <span>Vendeur</span>
-                </a>
-                <a href="" className="list-group-item py-2" >
+                </Link>
+                <Link to="/Produit" className="list-group-item py-2" >
                     <i className="bi bi-house fs-4 me-3"></i>
                     <span>Produits</span>
-                </a>
-                <a href="" className="list-group-item py-2" >
+                </Link>
+                <Link to="/Prestataire" className="list-group-item py-2" >
                     <i className="bi bi-house fs-4 me-3"></i>
                     <span>Prestataire</span>
-                </a>
-                <a href="" className="list-group-item py-2" >
+                </Link>
+                <Link to="/Client" className="list-group-item py-2" >
                     <i className="bi bi-house fs-4 me-3"></i>
                     <span>Client</span>
-                </a>
+                </Link>
                
 
 

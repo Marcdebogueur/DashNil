@@ -1,6 +1,8 @@
 import React from "react";
 import {Link} from "react-router-dom";
 // import General from "./General";
+import logNil from './../asset/images/logoNil.png'
+
 import './style.css'
 
 
@@ -10,6 +12,11 @@ function Connexion (){
         
 
         <div className=" wrapper d-flex  align-items-center justify-content-center w-100  ">
+            <div className="position-absolute   image">
+                <img src={logNil} className="logo1" />
+            </div>
+               
+
              <div className=" text-white position-absolute tete "> 
                 <h2 className="mb-3 text-center ">Nil service</h2>
 
@@ -31,7 +38,7 @@ function Connexion (){
                 </div>
                 <div className=" mt-5 mb-4 d-flex align-items-center justify-content-center"> 
                     
-                    <button type="submit" className="btn sign w-50 fs-4" > Sign In</button>
+                <Link to="./General" className="w-50 fs-4 sign btn"> <button type="submit" className="btn sign w-50 fs-4" > Sign In </button></Link>
                    
 
                     
