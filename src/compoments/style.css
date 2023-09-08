@@ -1,0 +1,146 @@
+ 
+  /**************************************************sidebar*****************************************/
+  .logo{
+    position: relative;
+    width: 100px;
+  }
+  .user{
+    position: absolute;
+    margin-top: 80px;
+    margin-left: -160px;
+    color: #3ec1f0;
+  }
+  .user i{
+    color: #ffc507;
+  }
+ 
+ .list-group a:hover{
+    background-color: #3ec1f0;
+  
+    cursor: pointer;
+ }
+ .list-group a{
+    background-color: #212529;
+    color: #ffc507;
+    margin-bottom: 50px;
+    font-size: 25px;
+
+
+}
+.hr{
+    margin-bottom: 75px;
+}
+ 
+    
+ 
+ 
+
+
+ /*****************************NAV*******************************/
+
+
+ .nil{
+    color: #3ec1f0;
+ }
+ .service{
+    color:  #ffc507;
+ }
+
+ .barre{
+    color: black;
+    width: 100%;
+    border: 2px solid #3ec1f0;
+    margin-top: 0;
+    margin-bottom: 70px;
+ }
+ .i{
+    color: #ffc507;
+ }
+ .i:hover{
+    color: #3ec1f0;
+ }
+
+
+
+
+ /***********************************HOME**********************************/
+ .cardre2{
+  background-color:#ffc507;
+ }
+ .cardre{
+    background-color: #3ec1f0;
+ }
+ h3,i{
+    color: #3ec1f0;
+ }
+ p {
+    color: #ffc507;
+ }
+
+
+ /************************General*****************************************************************/
+ .general{
+    background-color: #F8F6ED;
+ }
+
+ /* ******************************Connexion************************************** */
+
+.wrapper{
+   height: 100vh;
+   background-color: #F8F6ED;
+
+ }
+ .login{
+   z-index: 1;
+   width: 800px;
+   padding: 20px 30px;
+   padding-top: 140px;
+   
+   height:min-content ;
+   border-radius: 5px;
+   background-color: rgb(238, 241, 243);
+   
+ }
+ .tete h2{
+   font-size: 40px;
+   color: #ffc507;
+ }
+ .tete{
+   background-color: #3ec1f0;
+   width: 900px;
+   height: 70px;
+   z-index: 4;
+   margin-bottom: 400px;
+   padding-top:12px ;
+   border-radius: 5px;
+   
+ }
+ .sign{
+   background-color:#3ec1f0;
+   color: #ffc507;
+ }
+ .sign:hover{
+   background-color: #3ec1f0;
+ }
+ .image{
+   /* width: 0px; */
+   margin-bottom: 700px;
+   margin-right: 1350px;
+
+ }
+ /*****************************tableau******************************************************/
+
+ .tableau{
+   width: 100%;
+   min-height: 1000px;
+   /* background-color: red; */
+   /* margin-top: 400px; */
+   /* margin-left: 400px; */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   z-index: 3;
+   
+   
+ }
+ 
