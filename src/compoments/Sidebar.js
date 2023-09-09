@@ -12,8 +12,10 @@ function Sidebar() {
             <div className=" d-flex justify-content-center">
                 <img src={logNil} className="logo" />
                 <div className="user">
-                    <i className=" bi bi-bootstrap-fill me-3 fs-4 "></i>
-                        <span className="brand-name fs-4 ps-4 ">Marc <i class="bi bi-box-arrow-in-left"></i></span>
+                    <Link to="/" className="text-decoration-none text-none">
+                        <i className=" bi bi-bootstrap-fill me-3 fs-4 "></i>
+                        <span className="brand-name fs-4 ps-5 ms-5 ">Deconnexion <i class="bi bi-box-arrow-in-left"></i></span>
+                    </Link>
                 </div>
                     
             </div>

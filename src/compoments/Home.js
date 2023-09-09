@@ -120,37 +120,41 @@ function Home ({Toggle}){
                     </div>
 
                     <div className="col-md-3  ">
-                        <div className=" p-3 shadow-sm d-flex justify-content-around align-items-center rounded bg-white">
-                            <div>
-                            {
-                                
-                                userdata.map((user,i)=>{
-                                    comp=i+1;
-                                })
-                                
-                            }
-                                    <h3 className="fs-2">{comp}</h3>
-                                <p className="fs-5">Clients</p>
-                            </div>    
-                            <i className="bi bi-cart-plus p-3 fs-1"></i>
-                        </div>    
+                        <Link to="/Client" className="text-decoration-none">
+                            <div className=" p-3 shadow-sm d-flex justify-content-around align-items-center rounded bg-white">
+                                <div>
+                                {
+                                    
+                                    userdata.map((user,i)=>{
+                                        comp=i+1;
+                                    })
+                                    
+                                }
+                                        <h3 className="fs-2">{comp}</h3>
+                                    <p className="fs-5">Clients</p>
+                                </div>    
+                                <i className="bi bi-cart-plus p-3 fs-1"></i>
+                            </div>  
+                        </Link>  
                     </div>
 
                     <div className="col-md-3  ">
-                        <div className=" p-3 shadow-sm d-flex justify-content-around align-items-center rounded bg-white">
-                            <div>
-                            {
-                                
-                                userprod.map((user,i)=>{
-                                    compProd=i+1;
-                                })
-                                
-                            }
-                                    <h3 className="fs-2">{compProd}</h3>
-                                <p className="fs-5">Produits</p>
-                            </div>    
-                            <i className="bi bi-cart-plus p-3 fs-1"></i>
-                        </div>    
+                        <Link to="/Produit" className="text-decoration-none">
+                            <div className=" p-3 shadow-sm d-flex justify-content-around align-items-center rounded bg-white">
+                                <div>
+                                {
+                                    
+                                    userprod.map((user,i)=>{
+                                        compProd=i+1;
+                                    })
+                                    
+                                }
+                                        <h3 className="fs-2">{compProd}</h3>
+                                    <p className="fs-5">Produits</p>
+                                </div>    
+                                <i className="bi bi-cart-plus p-3 fs-1"></i>
+                            </div> 
+                        </Link>   
                     </div>
                 </div>
                 
